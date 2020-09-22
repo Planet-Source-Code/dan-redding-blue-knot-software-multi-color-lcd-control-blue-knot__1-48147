@@ -1,0 +1,28 @@
+I was inspired by the Vacuum Fluorescent Display Simulator project 
+by Peter Wilson on Planet Source Code.
+
+I wanted to make a version with more characters and more color options.  The
+background color thing was just a happy accident.
+
+The original graphics were all single 12×15 JPGs (and all cyan).  I added a few,
+redid a couple and turned them to greyscale so they could be tinted any color.
+
+The program I used to string them together was just a quickie 
+w/ hard-coded paths.  I'll clean it up if I ever need to post it 
+(thinking about allowing external 'font' files in a future version, 
+so I'd turn it into a sort of 'LCD font compiler')
+
+I've included the JPG version of the fonts used in the project + 
+the BMP version if you want to tweak the non-lossy image.
+
+This project also includes my cColor class, which I use on a number of 
+projects including the ColorLab application on my site.
+
+Thanks to Peter Wilson (original VFD project) & Kamilche (PictureFromByteStream)
+(detailed credits in the code)
+
+-- Dan Redding
+Dan@blueknot.com
+Blue Knot Software
+http://www.blueknot.com
+
